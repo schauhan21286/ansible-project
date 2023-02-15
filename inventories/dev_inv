@@ -1,0 +1,7 @@
+[servers]
+dev_1 ansible_host=54.160.94.190
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/.ssh/ansiblall-access-key.pem
